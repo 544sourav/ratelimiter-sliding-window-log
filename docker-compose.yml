@@ -1,0 +1,6 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: rate_limit_redis
+    ports:
+      - "6379:6379"
